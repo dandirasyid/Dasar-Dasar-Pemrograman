@@ -1,5 +1,5 @@
 pegawai1 = "Ahmad"
-agama = "Muslim"
+agama = "Islam"
 gajipokok1 = 4000000
 anak1 = 2
 tunjanganjabatan = 0.2 * gajipokok1
@@ -13,7 +13,7 @@ else:
 
 gajikotor = gajipokok1 + tunjanganjabatan + tunjangankeluarga
 # pake tuple
-zakatprofesi = (0, 0.025)[agama == "Muslim" and gajikotor >= 6000000]
+zakatprofesi = (0, 0.025)[agama == "Islam" and gajikotor >= 6000000]
 
 gajibersih = gajikotor + zakatprofesi
 
