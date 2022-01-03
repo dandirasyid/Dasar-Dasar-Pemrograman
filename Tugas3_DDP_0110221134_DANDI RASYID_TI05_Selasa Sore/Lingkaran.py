@@ -1,7 +1,6 @@
 class Lingkaran:
     jari2 = 0
 
-    # member2 konstruktor
     def __init__(self):
         print("="*10, "Lingkaran", 10*"=")
         self.jari2 = int(input("Masukkan Jari-jari Lingkaran: "))
